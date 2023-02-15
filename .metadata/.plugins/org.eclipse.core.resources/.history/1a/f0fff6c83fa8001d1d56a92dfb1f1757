@@ -1,0 +1,52 @@
+package controller;
+
+import java.io.IOException;
+
+import javax.servlet.GenericServlet;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+@WebServlet("/abc")
+public class Demo extends GenericServlet{
+//this program is to know whenever the first request is send the servlet instance is created and service method is called and whenever we  stop server (which is in red mark)destroy method will get invoke this is by extending generic servlet at the rate of WebServlet (/url)give print satement in the all three methods	
+
+	@Override
+	public void init() throws ServletException {
+		// TODO Auto-generated method stub
+		System.out.println("servlet instance/object is created");
+	}
+	
+	@Override
+		public void service(ServletRequest arg0, ServletResponse arg1) throws ServletException, IOException {
+			// TODO Auto-generated method stub
+			System.out.println("service method called");
+		}
+	
+	@Override
+		public void destroy() {
+			// TODO Auto-generated method stub
+			System.out.println("destroy method is called");
+		}
+	
+	}
+
+
+
+
+//the below program is for extending httpservletwith@webServelet
+//HttpServlet{
+//@Override
+//protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//	// TODO Auto-generated method stub
+//	this project project2 is without using web.xml how we add data in database and how we connect frontend to middleware
+//
+//	in this project we use at the rate of webServletin bracket give url using slash by giving this we connect frontend and middle ware
+//	System.out.println("hiiii");
+//}
+
+
+

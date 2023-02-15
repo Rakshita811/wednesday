@@ -1,0 +1,11 @@
+127.0.0.1 - - [25/Jan/2023:09:59:32 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:09:59:33 +0530] "GET /servlet_demo/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:09:59:51 +0530] "GET /servlet_demo/File1.html HTTP/1.1" 200 214
+127.0.0.1 - - [25/Jan/2023:10:31:29 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:10:31:30 +0530] "GET /servlet_demo/File1.html HTTP/1.1" 200 221
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:10:32:46 +0530] "GET /servlet_demo/File1.html HTTP/1.1" 200 223
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:10:32:52 +0530] "GET /servlet_demo/File2.html?Name=rakshur HTTP/1.1" 200 143
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:10:37:04 +0530] "GET /servlet_demo/File2.html?Name=rakshur HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:11:10:29 +0530] "GET /servlet_demo/File1.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:11:10:34 +0530] "GET /servlet_demo/File2.html?Name=cvkhl HTTP/1.1" 200 143
+0:0:0:0:0:0:0:1 - - [25/Jan/2023:11:10:42 +0530] "GET /servlet_demo/File2.html?Name=hbk HTTP/1.1" 200 143

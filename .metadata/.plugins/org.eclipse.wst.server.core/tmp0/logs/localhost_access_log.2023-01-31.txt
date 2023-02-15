@@ -1,0 +1,5 @@
+127.0.0.1 - - [31/Jan/2023:10:44:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:44:33 +0530] "GET /project1.jsp/formaction.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:44:33 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:45:05 +0530] "GET /project1.jsp/abd?empid=2&empname=abc HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [31/Jan/2023:10:45:05 +0530] "GET /project1.jsp/abd?empid=2&empname=abc HTTP/1.1" 500 7797
